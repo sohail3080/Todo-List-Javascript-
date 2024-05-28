@@ -1,0 +1,77 @@
+.outer-div{
+  position: absolute;
+  left: 40%;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.todo-title{
+  text-align: center;
+}
+.savediv{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.savediv button{
+  background-color: blue;
+  border:0.1rem solid blue;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+}
+.savediv button:hover{
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+}
+.submit-btn{
+  background-color: blue;
+  color: white;
+  height: 2rem;
+  border: 0.1rem blue solid;
+  width: 5rem;
+  border-radius: 0.1rem;
+}
+
+.submit-btn:hover{
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black
+}
+.form-input{
+  height: 1.6rem;
+}
+
+
+.list li.checked {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.list div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+  background-color: rgb(150, 188, 238);
+  margin-top: 1rem;
+}
+.list input {
+  width: 1rem;
+  padding: 0px;
+  border: 0px;
+  height: 1rem;
+ 
+}
+.list p{
+  width: 5rem;
+  font-size: 1.2rem;
+  
+  
+}
+.list p span{
+  position: absolute;
+  left: 13.5rem;
+}
+
